@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: monospace;
+  /* font-family:cursive; */
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+body {
+  margin: 0;
+  background-color: gray;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .dark {
+  background-color: #000;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/1577859975623.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.content img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.content .btn {
+  width: 100%;
+  margin: 20px 0;
+}
+.content .btn button {
+  background-color: #dc7f04;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+.content .btn button:hover {
+  border: 2px solid #fff;
+}
+.content .btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+}
+.content .btn a span {
+  font-size: 20px;
+  padding: 8px 16px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  font-weight: 800;
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 1000px) {
+  .full-page-img {
+    background-image: url("assets/1577859975623-new.jpeg");
+  }
+}
+
+@media (max-width: 700px) {
+  .full-page-img {
+    background-image: url("assets/1577859975623-new.jpeg");
+  }
+}
+
+@media (max-width: 716px) {
+  .full-page-img {
+    background-image: url("assets/1577859975623-new-croped.jpeg");
+  }
+}
